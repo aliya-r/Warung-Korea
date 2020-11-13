@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Zilla Slab', sans-serif;
+}
+/*BODY*/
+body{
+  height: 100vh;
+  background-color: white;
+  background-position: center;
+}
+/*Gambar Halaman Main*/
+.main img{
+  padding-top: 40px;
+  padding-right: 20px;
+  object-fit: cover;
+
+  width: 700px;
+  height: 320px;
+}
+
+/*Countainer*/
+.container{
+  width: 70%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/*Atur Gambar*/
+.gmbr{
+  width: 80%;
+  height:auto;
+  display: block; 
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+/*atur gambar*/
+.img_promo{
+  width: 40%;
+  padding-top: 80px;
+  padding-right: 45px;
+  padding-bottom: 20px;
+  float: left;
+}
+
+/*atur header di halaman promo*/
+.promo_content h1,h2{
+  font-weight: 600;
+}
+
+/*atur  map*/
+.map{
+  width: 400px;
+  height:350px;
+  padding-right: 45px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  float: left;
+}
+/*atur gambar*/
+.gmbr2{
+  width: 80%;
+  height:35%;
+  display: block; 
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+/*atur gambar logo grab dan gojek*/
+.grab{
+  width: 7%;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+/*atur gambar di about us*/
+.about_us{
+  float: left;
+  padding-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*atur header di container*/
+.container h2{
+  padding-top: 40px;
+  font-weight: 500;
+  font-size: 14pt;
+}
+
+.container h4{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  line-height: 30pt;
+}
+/*atur paragraf di container*/
+.container p{
+  padding: 10px;
+}
+
+/*atur gambar rata kiri di container*/
+.container img{
+  float:left;
+}
+
+/*atur tombol di container*/
+.container button{
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+/*untuk menengahkan objek/gbr*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 50px;
+}
+
+/*mengatur gambar banner di about us*/
+.banner img{
+  width: 100%;
+}
+
+/*mengatur tata letak halaman menu*/
+.konten_menu{
+  width: 75%;
+  margin:0 auto;
+  overflow: auto;
+  text-align: center;
+  padding-left: 5%;
+}
+
+/*mengatur tata letak h2*/
+.konten_menu h2{
+  padding-top: 40px;
+  padding-bottom: 5px;
+  }
+
+  /*mengatur row di menu*/
+.baris:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*mengatur row di menu*/
+.baris{
+  margin-left: 0;
+}
+
+/*mengatur kolom di menu*/
+.kolom {
+  flex: 33%;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  
+}
+/*mengatur gambar didalam kolom di menu*/
+.kolom img{
+  object-fit: cover;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30x;
+  margin-bottom: 0px;
+  text-align: center;
+
+}
+/*mengatur logo di navbar*/
+.header {
+  margin: 0;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  }
+
+/*mengatur navigasi*/
+.navbar{
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  background-color: black;
+}
+
+/*mengatur navigasi*/
+.navbar li {
+    display: inline;
+}
+
+/*mengatur navigasi*/
+.navbar  a{
+  display: inline-block;
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/*mengatur form subscribe*/
+.subscribe{
+  margin: 30px auto;
+  padding: 20px 25px;
+  width: 20%;
+  background-color: #e8e8e8;
+}
+
+.subscribe input[type=text], select {
+  width: calc(100%);
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.subscribe label {
+  font-size: 12px;
+  text-align: left;
+
+}
+.subscribe h3 {
+  text-align: center;
+  color: black;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subscribe input[type=submit] {
+width: calc(100%);
+background-color:white;
+color: black;
+padding: 10px 14px;
+margin-top: 8px;
+margin-bottom: 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 14px;
+font-weight: 500;
+border: 1px solid #ccc;
+}
+
+.subscribe input[type=submit]:hover {
+background-color: white;
+}
+
+/*mengatur footer*/
+.footer {
+  background: black;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 50px;
+}
+
+.footer ul{
+  margin:0;padding:0;
+}
+
+.footer span{
+  font-weight: 500;
+}
+
+.footer ul,li {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+}
+
+.footer ul,li,span {
+  display:block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.footer ul{
+  display:grid;
+  list-style-type:none;
+  margin:0;padding:0px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(1, auto);
+}
+
+.footer img{
+  width: 44px;
+  height: 38px;
+  padding: 5px;
+}
+
+.footer a{
+  text-align: left;
+  color:white;
+  text-decoration: none;
+}
+
+.footer table{
+  border: none;
+  margin-right: 70px;
+}
+
+.footer button{
+  color:black;
+  background-color: white;
+  padding:7px 15px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
