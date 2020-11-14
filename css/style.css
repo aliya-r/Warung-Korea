@@ -243,10 +243,11 @@ body{
 }
 
 .card h3{
-  text-align: left;
+  text-align: center;
   margin-bottom: 30px;
   color: #fafafa;
   text-transform: none;
+  font-weight: 500;
 }
 .card label{
   text-align: left;
