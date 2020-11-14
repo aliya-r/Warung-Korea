@@ -207,6 +207,13 @@ body{
   text-decoration: none;
   font-weight: 500;
 }
+.navbar ul li:hover{
+  background:white;
+}
+
+.navbar ul li:hover a{
+  color:black;
+}
 
 /*mengatur form subscribe*/
 .subscribe{
@@ -321,5 +328,9 @@ background-color: white;
   font-size: 16px;
   cursor: pointer;
   margin-top: 20px;
+}
+.footer button:hover{
+  color:black;
+  background-color:gray;
 }
 
